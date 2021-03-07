@@ -15,22 +15,29 @@ ol {list-style-type: lower-alpha;
 padding: 5em;
 }
 
-ul {
+ul.menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li {
+li.menu1 {
   float: left;
 }
 
-a {
+a.menu2 {
   display: block;
   padding: 8px;
   background-color: #144a22;
 }
 
 img.photo {
-    width: 50%;
+    width: 25%;
 }
+
+p {
+    margin:auto
+}
+
+figcaption {font-size: smaller;}
+
